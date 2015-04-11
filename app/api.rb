@@ -12,6 +12,7 @@ module Acme
     mount ::Acme::ContentType
     mount ::Acme::UploadFile
     mount ::Acme::Entities::API
+    mount ::Acme::Redirect
     add_swagger_documentation api_version: 'v1'
   end
 end

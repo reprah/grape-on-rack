@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rack', '~> 1.6.0'
-gem 'grape', '~> 0.10.1'
+gem 'grape', git: 'https://github.com/reprah/grape.git', branch: '863-named-route-helpers'
 gem 'grape-entity', '~> 0.4.4'
-gem 'json', '~> 1.7.7'
+gem 'json', '1.8.2'
 gem 'newrelic_rpm', '~> 3.5.4.34'
 gem 'newrelic-grape', '~> 1.1.0'
 gem 'rack-cors', '~> 0.2.8'

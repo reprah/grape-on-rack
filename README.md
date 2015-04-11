@@ -46,6 +46,14 @@ $ curl http://localhost:9292/api/ping
 {"ping":"pong"}
 ```
 
+### Get Redirected (Grape route helpers demonstration)
+
+With a browser, navigate to `http://localhost:9292/api/v1/redirect_me`
+
+```
+"Hello!"
+```
+
 ### Get Plain Text
 
 ```
